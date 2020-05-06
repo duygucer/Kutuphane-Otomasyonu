@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kullanici.Master.cs" Inherits="Kutuphane2.Kullanici" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Kullanici.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 700px;
+            height: 200px;
+            background-color: rgba(116, 73, 73, 0.85);
+        }
+
+        .auto-style2 {
+            background-color: #FFFFFF;
+            font-size: small;
+            width: 700px;
+            height: auto;
+            margin-left: 0px;
+        }
+
+        .auto-style3 {
+            background-color: rgba(116, 73, 73, 0.85);
+            width: 700px;
+            height: auto;
+        }
+
+        .auto-style5 {
+            width: 100%;
+        }
+
+        .auto-style6 {
+            text-align: center;
+        }
+
+        .auto-style7 {
+            text-align: center;
+            background-color: #020734;
+        }
+
+        .auto-style8 {
+            text-align: center;
+            background-color: #020734;
+            color: #FFFFFF;
+            width: 350px;
+        }
+
+        .auto-style9 {
+            color: #FFFFFF;
+        }
+
+        .auto-style10 {
+            text-decoration: none;
+        }
+
+        .auto-style11 {
+            width: 697px;
+            height: 366px;
+        }
+
+        .auto-style13 {
+            color: #050068;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" class="auto-style15">
+        <div id="tamEkranArdAlan" class="auto-style17">
+            <img src="images/background.jpg"  class="auto-style16" />
+        </div>
+        <style>
+            #tamEkranArdAlan {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <div id="icerik" class="auto-style14">
+            <div class="auto-style1" >
+                <img src="images/libraryHeader2.jpg" class="auto-style20" />
+            </div>
+            <div style=" width: 700px; height: 20px;" class="auto-style6">&nbsp;</div>
+            <div class="auto-style2">
+                <table class="auto-style5">
+                    <tr>
+                        <td class="auto-style8"><a href="KitapAra.aspx" ><span class="auto-style8">Kitap Ara</span></a></td>
+                        <td class="auto-style8"><a href="KitapTeslim.aspx"><span class="auto-style8">Kitap Teslim</span></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="width: 700px; height: 20px;" class="auto-style13">&nbsp;</div>
+            <div class="auto-style11">
+
+                <div class="auto-style3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <style>
+            #icerik {
+                position: relative;
+                z-index: 1;
+                width: 700px;
+                padding: 20px;
+                font: 14px/1.8em Arial;
+                margin: 40px auto;
+                border-radius: 10px;
+            }
+            .auto-style14 {
+                left: -5px;
+                top: -36px;
+                width: 724px;
+                height: auto;
+                right: 5px;
+                text-align: center;
+            }
+            .auto-style15 {
+                margin-left: 70px;
+                margin-top: 40px;
+            }
+            .auto-style16 {
+                width: 1593px;
+                height: 1030px;
+            }
+            .auto-style17 {
+                left: -2px;
+                top: -345px;
+                width: 99%;
+                height: 100%;
+            }
+            .auto-style20 {
+                width: 700px;
+                height: 201px;
+            }
+        </style>
+    </form>
+</body>
+</html>
+

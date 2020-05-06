@@ -1,0 +1,135 @@
+﻿a:link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 15px #fff;
+    -webkit-transform: rotate(-7deg) scale(1.2);
+    -moz-transform: rotate(-7deg) scale(1.2);
+}
+
+.spanLabel {
+    width: 80px;
+    color: white;
+    background-color: rgba(71, 89, 103, 0.95);
+    text-align: center;
+    display: block;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+.tb5 {
+    border: 2px solid #456879;
+    border-radius: 10px;
+    height: 22px;
+    width: 230px;
+}
+
+.fb5 {
+    background-color: #db6600;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #ffffff;
+    border: 1px solid #db6600;
+    background-image: url(images/button_bg.jpg);
+}
+
+    .fb5:hover {
+        background-color: #000000;
+        border: 1px solid #000000;
+        background-image: url(images/button_bg_over.jpg);
+    }
+
+.button {
+    background-color: rgba(71, 89, 103, 0.95);
+    border: 2px solid #db6600;
+    border-radius: 10px;
+    color: #D3B081;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 #db6600;
+}
+.myButton {
+    -moz-box-shadow: 0px 0px 11px 0px #7f1bc2;
+    -webkit-box-shadow: 0px 0px 11px 0px #7f1bc2;
+    box-shadow: 0px 0px 11px 0px #7f1bc2;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #55dbe0), color-stop(1, #b12abd));
+    background: -moz-linear-gradient(top, #55dbe0 5%, #b12abd 100%);
+    background: -webkit-linear-gradient(top, #55dbe0 5%, #b12abd 100%);
+    background: -o-linear-gradient(top, #55dbe0 5%, #b12abd 100%);
+    background: linear-gradient(to bottom, #55dbe0 5%, #b12abd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#55dbe0', endColorstr='#b12abd',GradientType=0);
+    background-color: #55dbe0;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    border: 2px solid #062e0a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 47px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #18b3c7;
+}
+
+    .myButton:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b12abd), color-stop(1, #55dbe0));
+        background: -moz-linear-gradient(top, #b12abd 5%, #55dbe0 100%);
+        background: -webkit-linear-gradient(top, #b12abd 5%, #55dbe0 100%);
+        background: -o-linear-gradient(top, #b12abd 5%, #55dbe0 100%);
+        background: linear-gradient(to bottom, #b12abd 5%, #55dbe0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b12abd', endColorstr='#55dbe0',GradientType=0);
+        background-color: #b12abd;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.auto-style21 {
+    width: 100%;
+    color: #660066;
+    background-color: #FFFFFF;
+}
+
+.auto-style22 {
+    background-color: #FFFFFF;
+}
+
+.auto-style23 {
+    color: #660066;
+}
+.auto-style31 {
+    color: #FF3300;
+}
+.auto-style30 {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.auto-style32
+
+{
+    color: #FF0000;
+    text-decoration: underline;
+    background-color: #FFFFFF;
+}
